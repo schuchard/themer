@@ -1,0 +1,22 @@
+{
+  "name": "themer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "themer -c themer-colors-one -t themer-vscode -t themer-iterm -t themer-slack -t themer-wallpaper-block-wave -o gen"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "themer": "^2.2.3",
+    "themer-colors-default": "^1.0.5",
+    "themer-colors-one": "^1.0.4",
+    "themer-colors-polar-ice": "^1.0.2",
+    "themer-iterm": "^1.0.4",
+    "themer-slack": "^1.0.5",
+    "themer-vscode": "^1.0.4",
+    "themer-wallpaper-block-wave": "^2.0.1"
+  }
+}
